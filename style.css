@@ -107,3 +107,25 @@
   text-align: right;
   font-weight: 700;
 }
+
+.hourly-forecast {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.hourly-forecast .card {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 8px;
+}
+
+.hourly-forecast .card .time {
+  font-weight: 700;
+}
+
+.hourly-forecast .card .card-content {
+  background-color: #e2e2e2;
+  padding: 8px;
+  border-radius: 8px;
+}
